@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyMaterial">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/gla"></ImageView>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#5A855C"
+        android:gravity="center"
+        android:text="STUDY MATERIAL"
+        android:textSize="30dp"></TextView>
+
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textAlignment="center"></Spinner>
+
+    <Spinner
+        android:id="@+id/bTech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin1"
+        android:layout_marginTop="50dp"></Spinner>
+
+</RelativeLayout>
