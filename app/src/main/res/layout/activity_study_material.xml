@@ -40,4 +40,14 @@
         android:layout_below="@+id/spin1"
         android:layout_marginTop="50dp"></Spinner>
 
+    <Button
+        android:id="@+id/studysearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTech"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"
+        android:text="SEARCH"></Button>
+
 </RelativeLayout>
