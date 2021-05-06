@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128882395497",
+    "project_id": "gla-space",
+    "storage_bucket": "gla-space.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128882395497:android:95ac7db64b9fde767995f8",
+        "android_client_info": {
+          "package_name": "com.example.glaspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128882395497-cnb4l1gm7q76vl2ffkbfml627rmq20vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvrfq5cn5lspk4eITeb8vCahz254tY8v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128882395497-cnb4l1gm7q76vl2ffkbfml627rmq20vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
