@@ -16,6 +16,8 @@ public class OptionIcon extends AppCompatActivity {
         setContentView(R.layout.activity_option_icon);
         b1 = findViewById(R.id.button1);
         b4 = findViewById(R.id.button4);
+        b3 = findViewById(R.id.button3);
+        b2 = findViewById(R.id.button2);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +30,20 @@ public class OptionIcon extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent4 = new Intent(OptionIcon.this, PreviousYearPaper.class);
                 startActivity(intent4);
+            }
+        });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(OptionIcon.this, Sports.class);
+                startActivity(intent2);
+            }
+        });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent3 = new Intent(OptionIcon.this, Events.class);
+                startActivity(intent3);
             }
         });
     }

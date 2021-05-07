@@ -30,6 +30,7 @@
         android:layout_weight="1"
         android:background="#1D8A95"
         android:text="EVENTS"
+        android:id="@+id/button2"
         android:textSize="25dp"></Button>
 
     <Button
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="#CD7D28"
+        android:id="@+id/button3"
         android:text="SPORTS"
         android:textSize="25dp"></Button>
 

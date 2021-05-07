@@ -20,7 +20,7 @@ public class StudyMaterial extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_previous_year_paper);
+        setContentView(R.layout.activity_study_material);
         sp1 = findViewById(R.id.spin1);
         sp2 = findViewById(R.id.bTech);
         button = findViewById(R.id.studysearch);
